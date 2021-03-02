@@ -4,17 +4,9 @@
  * Summary:	A B-Tree data structure. Supports lg(n) time search, insert, and delete.
  */
 
-
-#pragma once
-
-
-#include <stdlib.h>
-#include <utility>
-#include <stdio.h>
-
-
 using namespace std;
-
+//#pragma once
+#include "bTree.hpp"
 
 #define NEW_ROOT 2
 #define MODIFIED_NOT_ROOT 1
